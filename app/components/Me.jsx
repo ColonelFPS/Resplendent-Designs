@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Image from 'next/image'
-import me from '../../public/Me.png'
+import me from '../../public/me.png'
 import ScrollWord from './ScrollWord'
 
 function Me() {
