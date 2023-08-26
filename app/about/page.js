@@ -8,13 +8,13 @@ import Footer from '../components/Footer'
 
 function ViewPage() {
   return (
-    <SecondLayout>
-      <>
+     <SecondLayout>
+      <div className='custom-img'>
         <Me />
         <Portfolio />
         <Contact />
-        <Footer/>
-      </>
+        <Footer />
+      </div>
     </SecondLayout>
   )
 }
