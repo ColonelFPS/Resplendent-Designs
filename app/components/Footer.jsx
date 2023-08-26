@@ -12,8 +12,6 @@ function Footer() {
             <li>•</li>
             <li className='hover:scale-105 duration-200'><a href='#portfolio'>Portfolio</a></li>
             <li>•</li>
-            <li className='hover:scale-105 duration-200'><a href='#prices'>Prices</a></li>
-            <li>•</li>
             <li className='hover:scale-105 duration-200'><a href='#contact'>Contact</a></li>
         </ul>
 
