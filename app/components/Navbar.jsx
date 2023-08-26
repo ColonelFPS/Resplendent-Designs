@@ -13,7 +13,7 @@ function Navbar() {
     };
 
     return (
-        <nav className='font-primary'>
+        <nav className='font-primary shadow-purple-700 shadow-md''>
             <div className="flex m-auto justify-between items-center py-4 pl-6">
                 <Link href={'/'}><h2 className='flex font-extrabold tracking-wider text-xl sm:text-2xl hover:scale-105 duration-300'>Resplendent Designs</h2></Link>
                 <div className='flex sm:pr-16 pr-2 gap-2 sm:gap-10 font-bold'>
