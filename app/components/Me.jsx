@@ -7,7 +7,7 @@ import ScrollWord from './ScrollWord'
 function Me() {
 
     return (
-        <section id='me' className='custom-img flex min-h-screen'>
+        <section id='me' className='flex min-h-screen'>
             <div className='mx-auto items-center justify-center text-center mt-[8rem]'>
                 <h1 className='font-bold flex flex-col text-3xl text-white underline'>About Me</h1>
                 <Image
