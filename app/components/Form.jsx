@@ -17,7 +17,7 @@ export default function DefaultForm() {
             message: message
         };
 
-        fetch("https://getform.io/f/98002d7b-0a04-4e63-8fa4-14bcf6d7b361", {
+        fetch(proccess.env.ENDPOINT, {
             method: "POST",
             body: JSON.stringify(formData),
             headers: {
