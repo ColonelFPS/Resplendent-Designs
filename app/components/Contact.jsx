@@ -6,7 +6,7 @@ import contact from '../../public/contact.png'
 
 function Contact() {
   return (
-   <section id='contact' className='custom-img h-full w-full'>
+   <section id='contact' className='h-full w-full'>
     <div className='mx-auto mt-6 items-center justify-center text-center pt-10 rounded-md'>
     <Image
     src={contact}
