@@ -1,0 +1,20 @@
+nav {
+    height: auto;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    background: #68538f;
+}
+
+nav a.active {
+    width: auto;
+    height: auto;
+    padding: 0.5;
+    background: #f59665;
+    border-radius: 0.7rem;
+}
+
+nav a:hover {
+    transition: 200ms;
+}
