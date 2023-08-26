@@ -1,6 +1,7 @@
 'use client';
 import { Button, Label, TextInput, Textarea } from 'flowbite-react';
 import { useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 
 export default function DefaultForm() {
     const [email, setEmail] = useState('');
@@ -24,12 +25,14 @@ export default function DefaultForm() {
             },
         })
             .then(response => {
+                toast.success('Message sent!')
                 e.target.reset();
                 setEmail('')
                 setMessage('')
                 setName('')
             })
             .catch(error => {
+                toast.error("There was an error...")
                 e.target.reset();
                 setEmail('')
                 setMessage('')
@@ -97,6 +100,7 @@ export default function DefaultForm() {
                     Submit
                 </Button>
             </form>
+             <Toaster/>
         </div>
 
     )
