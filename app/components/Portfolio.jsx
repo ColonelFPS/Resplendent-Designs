@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Portfolio() {
   return (
-    <section id='portfolio' className='custom-img font-primary'>
+    <section id='portfolio' className='font-primary'>
   <div className='mx-auto items-center justify-center text-center pt-10'>
                 <h1 className='font-bold flex flex-col text-3xl text-white underline'>My Portfolio</h1>
                 <Image
